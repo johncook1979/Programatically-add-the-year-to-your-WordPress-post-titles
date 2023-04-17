@@ -5,3 +5,5 @@ There are a couple of caveats to be aware of.
 2. If you are using Yoast SEO you will need to modify the code slightly (see code comments)
 
 *The snippet at the end of the functions.php file will update the slug when you publish a post by removing the 'year' shortcode name from the title. The 'year' is removed and is not replaced. You can replace it with the current year, however, doing so will cause several problems in the future. For example, the slug will contain an outdated year, appearing to contain irrelevant information. You can programatically update the year in the slug, however, this will create other issues such as redirects, 404's and potential duplicate content problems. This is why it is recommended to just remove the year from the slug.
+
+Concept from my blog. [Add year to titles in WordPress automatically](https://wcsuccessacademy.com/programmatically-add-the-year-to-your-wordpress-post-and-product-titles/ "WC Success Academy") 
