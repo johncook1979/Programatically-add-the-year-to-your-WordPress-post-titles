@@ -5,8 +5,8 @@
 
 add_shortcode( 'year', 'my_current_year' );
 function my_current_year(){
-    // Return the current year. We are using the WordPress get_the_time() function here but you can also use the PHP data() function with the same 'Y' parameter
-    return get_the_time( 'Y' );
+    // Return the current year. If you use the WordPress get_the_time('Y') function here it will return the published date of the post
+    return date( 'Y' );
 }
 
 // Add filters to display the date in the title using the function below the filters
